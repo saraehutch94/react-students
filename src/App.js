@@ -68,6 +68,17 @@ function App() {
     ]
   });
 
+  const studentComponents = students.students.map((object, index) => {
+    return (
+      <Student
+        key={index}
+        name={object.name}
+        bio={object.bio}
+        scores={object.scores}
+      />
+    );
+  });
+
   return <div className="App"></div>;
 }
 
