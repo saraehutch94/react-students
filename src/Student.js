@@ -1,3 +1,5 @@
+import Score from "./Score";
+
 function Student(props) {
   const scores = props.scores.map((object, index) => {
     return <Score key={index} date={object.date} score={object.score} />;
