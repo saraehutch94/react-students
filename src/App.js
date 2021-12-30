@@ -79,7 +79,11 @@ function App() {
     );
   });
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <div>{studentComponents}</div>
+    </div>
+  );
 }
 
 export default App;
