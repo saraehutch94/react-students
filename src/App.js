@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
+import Student from "./Student";
 
 function App() {
   const [students, setStudents] = useState({
